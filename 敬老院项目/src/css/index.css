@@ -1,0 +1,55 @@
+#app{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 100%;
+    /* background: #000; */
+    font-size:.426667rem /* 32/75 */ ;
+    color:white;
+    background-size:100% ;
+    background-repeat: unset;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 1.066667rem /* 80/75 */;
+    line-height: 1.066667rem /* 80/75 */;
+    text-align: center;
+    font-size: 0.6rem;
+    background:rgb(255,30,50);
+    z-index: 1000;
+}
+.head span img{
+    width: .55rem /* 60/75 */;
+}
+
+.content{
+    margin:1.066667rem /* 80/75 */ auto;
+    width: 10rem;
+}
+
+.foot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    list-style: none;
+    width: 10rem;
+    overflow: hidden;
+    background:rgb(255,30,50);
+}
+.foot li{
+    float: left;
+    width: 3.333rem;
+    height: 1.066667rem /* 80/75 */;
+    line-height: 1.066667rem /* 80/75 */;
+    text-align: center;
+    font-size:0.4rem;
+    color: white;
+}
